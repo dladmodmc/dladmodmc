@@ -8,8 +8,9 @@ document.querySelector('.nav-toggle')?.addEventListener('click', () => {
 const faqData = [
     ["Which Minecraft versions are supported?", "dlad supports Fabric 1.21 and above. The versions required to play mlum"],
     ["How do I install?", "Drop the `.jar` into your `mods/` folder and run with the Fabric loader."],
-    ["Is this mod detectable?", "No, all features can be disabled and offers a self destruct feature"],
-    ["Will there be more features?", "Yes, we're constantly working on new updates! If you got any suggestions, feel free to fill out the form on the feedback page."]
+    ["Is this mod detectable?", "No, as long as you're responsible and use the features wisely, in itself dlad is not detectable as it's all client side. But be cautious as mods can still see you being suspicious."],
+    ["Will there be more features?", "Yes, we're constantly working on new updates! If you got any suggestions, feel free to fill out the form on the feedback page."],
+    ["What should I do in the case of getting ss'd by a mod?", "If you get ss'd by a mod, you can use the self destruct feature to remove all traces of dlad ever being in your game."],
 ];
 
 // FAQ Generation
