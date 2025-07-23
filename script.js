@@ -48,31 +48,6 @@ function initFAQ() {
     });
 }
 
-// Download list population
-const versions = [
-    { version: '1.21 v1.0', url: '#' },
-    { version: '1.21.1 v1.0', url: '#' },
-    { version: '1.21.2 v1.0', url: '#' },
-    { version: '1.21.3 v1.0', url: '#' },
-    { version: '1.21.4 v1.0', url: '#' },
-    { version: '1.21.5 v1.0', url: '#' },
-    { version: '1.21.6 v1.0', url: '#' },
-    { version: '1.21.7 v1.0', url: '#' },
-    { version: '1.21.8 v1.0', url: '#' },
-];
-
-const list = document.getElementById('download-list');
-if (list) {
-    versions.forEach(v => {
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.href = v.url;
-        a.textContent = `dlad ${v.version}`;
-        li.appendChild(a);
-        list.appendChild(li);
-    });
-}
-
 // Initialize FAQ if we're on the FAQ page
 if (window.location.pathname.includes('faq.html')) {
     initFAQ();
