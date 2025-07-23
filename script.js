@@ -7,10 +7,10 @@ document.querySelector('.nav-toggle')?.addEventListener('click', () => {
 // FAQ Data
 const faqData = [
     ["Which Minecraft versions are supported?", "dlad supports Fabric 1.21 and above. The versions required to play mlum"],
-    ["How do I install?", "Drop the `.jar` into your `mods/` folder and run with the Fabric loader."],
+    ["How do I install?", "<div style='text-align: center;'>Installation is simple:<br><br>1) Make sure you have Java installed (<a href='https://docs.fabricmc.net/players/installing-java/windows' target='_blank'>see Fabric guide</a>)<br><br>2) Download and run the Fabric installer from the <a href='https://fabricmc.net/use/' target='_blank'>official site</a> for Minecraft version 1.21 or later <br><br>3) Download both the <a href='https://www.curseforge.com/minecraft/mc-mods/fabric-api' target='_blank'>Fabric API</a> and <a href='index.html'>dlad mod</a> .jar files for your selected Minecraft version <br><br>4) Place both .jar files in your Minecraft's <a href='https://docs.fabricmc.net/players/installing-mods' target='_blank'><code>mods/</code> folder</a><br><br>5) Launch Minecraft using the <a href='https://docs.fabricmc.net/players/installing-fabric' target='_blank'>Fabric profile</a> in the launcher<br><br>For detailed instructions, visit the <a href='https://docs.fabricmc.net/players/faq' target='_blank'>Fabric Player FAQ</a>.</div>"],
     ["Is this mod detectable?", "No, as long as you're responsible and use the features wisely, in itself dlad is not detectable as it's all client side. But be cautious as mods can still see you being suspicious."],
     ["Will there be more features?", "Yes, we're constantly working on new updates! If you got any suggestions, feel free to fill out the form on the feedback page."],
-    ["What should I do in the case of getting ss'd by a mod?", "If you get ss'd by a mod, you can use the self destruct feature to remove all traces of dlad ever being in your game."],
+    ["What should I do in the case of getting ss'd by a mod?", "If you get ss'd by a mod, you can use the self destruct feature to remove all traces of dlad ever being in your game."]
 ];
 
 // FAQ Generation
