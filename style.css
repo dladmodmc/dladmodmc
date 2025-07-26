@@ -108,6 +108,27 @@ body {
     opacity: 1;
 }
 
+/* Extras */
+.extras-toggle {
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 1em;
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.extras-toggle:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.extras-toggle.active {
+    margin-bottom: 1em;
+}
+
 /* Footer */
 .site-footer { 
     text-align:center; 

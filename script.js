@@ -52,3 +52,15 @@ function initFAQ() {
 if (window.location.pathname.includes('faq.html')) {
     initFAQ();
 }
+
+// Extras toggle
+const extrasToggle = document.querySelector('.extras-toggle');
+if (extrasToggle) {
+    extrasToggle.addEventListener('click', () => {
+        const content = document.querySelector('.extras-content');
+        const isOpen = content.style.display === 'block';
+        content.style.display = isOpen ? 'none' : 'block';
+        extrasToggle.textContent = isOpen ? 'Extras ▼' : 'Extras ▲';
+        extrasToggle.classList.toggle('active');
+    });
+}
