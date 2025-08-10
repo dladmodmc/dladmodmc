@@ -60,7 +60,7 @@ const changelogData = [
     {
         version: "1.0",
         changes: [
-            "Initial release of dlad mod",
+            "Still WIP",
         ]
     }
 ];
