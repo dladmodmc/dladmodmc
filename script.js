@@ -66,7 +66,7 @@ const changelogData = [
         changes: [
             "The size of warnings can now be edited for each feature (except autofish)",
             "Sausage finder now will check in a radius around the camera, making it compatible with freecam mods",
-            "Reworked escape detector, fixes bug when the player goes out of render distance & shows item correctly",
+            "Reworked escape detector, fixes bug when the player goes out of render distance. Aware of an issue where the item is displayed as air",
             "Added meteor detector"
         ]
     },
