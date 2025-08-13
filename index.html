@@ -26,6 +26,9 @@
     <section class="hero">
       <h2 class="hero-title">dlad (wip)</h2>
       <p class="hero-subtitle">The undetectable "assistance" fabric mod for mlum</p>
+      <div class="disclaimer" style="margin-top:-15px;margin-bottom:1em;margin-left:2em;margin-right:2em;color:#c00;font-size:1em;">
+        While this mod is undetectable, you can still be caught if you use it stupidly, don't immediately find all sausages, run directly to escapes, etc. (it's just common sense).
+      </div>
       <a class="btn" href="downloads.html">Download Page</a>
     </section>
 
@@ -77,7 +80,11 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>© 2025 dlad Mod • Built with Fabric</p>
+      <p>© 2025 dlad Mod • Built with Fabric <span id="download-count" style="display:none;"></span></p>
+      <div id="download-password-container" style="display:none;">
+        <input type="password" id="download-password" placeholder="Enter password" style="margin-left:1em;">
+        <button id="download-password-btn">Show Downloads</button>
+      </div>
       <p>Also thanks to quick501 for the background images (We joinked them from him)</p>
       <p>Source: <a href="https://github.com/dladmodmc/dladmodsource" target="_blank">GitHub</a></p>
     </div>
@@ -86,4 +93,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
