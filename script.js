@@ -85,39 +85,3 @@ function initChangelog() {
 if (window.location.pathname.includes('index.html') || window.location.pathname.endsWith('/')) {
     initChangelog();
 }
-
-let extrasToggleCount = 0;
-const extrasToggleBtn = document.querySelector('.extras-toggle');
-const passwordContainer = document.getElementById('download-password-container');
-const passwordInput = document.getElementById('download-password');
-const passwordBtn = document.getElementById('download-password-btn');
-const downloadCountSpan = document.getElementById('download-count');
-
-if (extrasToggleBtn) {
-  extrasToggleBtn.addEventListener('click', () => {
-    extrasToggleCount++;
-    if (extrasToggleCount === 5 && passwordContainer) {
-      passwordContainer.style.display = 'inline-block';
-    }
-  });
-}
-
-if (passwordBtn) {
-  passwordBtn.addEventListener('click', () => {
-    if (passwordInput.value === '39137') {
-      fetch('/api/download-count')
-        .then(res => res.json())
-        .then(data => {
-          downloadCountSpan.textContent = `• Downloads: ${data.count}`;
-          downloadCountSpan.style.display = 'inline';
-        })
-        .catch(() => {
-          downloadCountSpan.textContent = '• Downloads: error';
-          downloadCountSpan.style.display = 'inline';
-        });
-    } else {
-      passwordInput.value = '';
-      passwordInput.placeholder = 'Wrong password';
-    }
-  });
-}
