@@ -64,7 +64,7 @@ const changelogData = [
     {
         version: "1.1",
         changes: [
-            "Working on 1.21.4+ Using the mod above this version will crash",
+            "Working on 1.21 and 1.21, anything above this version will crash, soon to be released",
             "The size of warnings can now be edited for each feature (except autofish)",
             "Sausage finder now will check in a radius around the camera, making it compatible with freecam mods",
             "Reworked escape detector, fixes bug when the player goes out of render distance",
