@@ -62,6 +62,14 @@ if (extrasToggle) {
 
 const changelogData = [
     {
+        version: "1.11",
+        changes: [
+            "Reworked meteor detector, can now reach greater distances (render distance) and shows different colors depending on meteor rarity",
+            "Improved stability"
+        ]
+    },
+
+    {
         version: "1.1",
         changes: [
             "Support for all 1.21.x versions",
