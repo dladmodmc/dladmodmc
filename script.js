@@ -11,7 +11,7 @@ const faqData = [
     ["Is the mod detectable?", "No, as long as you're responsible and use the features wisely, in itself dlad is not detectable as it's all client side. But be cautious as mods can still see suspicious behaviour."],
     ["Will I get banned?", "The quick answer is no, but that heavily depends on how you use the mod yourself. If you're going around going to every single escape, getting every sausage tm, you might get mods suspicious on you, this is just as people using hacked clients, you must use it responsibly."],
     ["Open source?", "Source: <a href='https://github.com/dladmodmc/dladmodsource' target='_blank'>GitHub</a><br>Yes, but partially. Every part of the code is able to be seen except for how the features detect and how the mod is enabled/disabled depending on if you're in mlum or not, these measures are set to prevent staff from making patches."],
-    ["I still don't believe it aint a virus!!!", "Go scan it with <a href='https://www.virustotal.com/' target='_blank'>VirusTotal</a> you paranoid ahh. It's just going to say it's safe because it's SAFE!!!!"]
+    ["I still don't believe it aint a virus!!!", "Go scan it with <a href='https://www.virustotal.com/' target='_blank'>VirusTotal</a> you paranoid ahh. It's just going to say it's safe because it's SAFE!!!! Staff are actively attempting to deter players from using this mod by suggesting/saying it's a rat, which a rat CAN and WILL be detected by any antivirus, so go ahead and scan it with all you have"]
     ];
 
 function initFAQ() {
